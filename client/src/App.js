@@ -3,13 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-    const [data, setData] = useState([]);
+  const [data, setData] = useState([]);
 
-    useEffect(() => {
-      fetch("/phones")
-        .then((res) => res.json())
-        .then((data) => setData(data.message));
-    }, []);
+  useEffect(() => {
+    fetch("/phones")
+      .then((res) => res.json())
+      .then((data) => setData(data.data[0].name));
+  }, []);
 
   return (
     <div className="App">
