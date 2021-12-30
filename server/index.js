@@ -1,6 +1,7 @@
 // server/index.js
 const path = require('path');
 const express = require("express");
+const dbPhones = require("../db.json") 
 
 const PORT =  process.env.PORT || 3001;
 
@@ -11,7 +12,7 @@ app.use(express.static(path.resolve(__dirname, '../client/build')));
 
 // Handle GET requests to /api route
 app.get("/phones", (req, res) => {
-    res.json({ message: "Hello from server, soon we will see some phones!" });
+    res.json(dbPhones);
 })
 
 app.listen(PORT, () => {
