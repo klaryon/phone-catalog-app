@@ -1,0 +1,27 @@
+.phoneCardContainer {
+    color: #1b3a4b;
+    background-color: #fff;
+    width: 10rem;
+    height: 13rem;
+    border-radius: 20px;
+    border: 5px solid #1b3a4b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.phoneName {
+    font-weight: 600;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.imageContainer {
+    width: 6rem;
+}
+
+.image {
+    width: 100%;
+}
