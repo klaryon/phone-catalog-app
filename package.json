@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/klaryon/phone-catalog-app.git"
   },
+  "engines": {
+    "node": "14.17.3"
+  },
   "keywords": [
     "node",
     "restful",
