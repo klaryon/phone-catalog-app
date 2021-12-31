@@ -12,7 +12,7 @@ function App() {
 
   console.log(data);
 
-  return <div>{!data ? "Loading..." : <Home />}</div>;
+  return <div>{!data ? "Loading..." : <Home items={data.data} />}</div>;
 }
 
 export default App;
