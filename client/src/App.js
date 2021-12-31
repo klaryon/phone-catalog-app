@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Home from "./screens/Home";
 
 function App() {
   const [data, setData] = useState(null);
@@ -11,13 +12,7 @@ function App() {
 
   console.log(data);
 
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>{!data ? "Loading..." : data.data[0].name}</p>
-      </header>
-    </div>
-  );
+  return <div>{!data ? "Loading..." : <Home />}</div>;
 }
 
 export default App;
