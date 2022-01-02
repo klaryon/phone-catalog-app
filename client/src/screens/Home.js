@@ -11,6 +11,7 @@ const Home = ({ items }) => {
     <div className={styles.homeContainer}>
       <div className={styles.title}>Phones Catalog</div>
       <div className={styles.gallery}>{phoneItem}</div>
+      <div className={styles.made}>Made by Clarissa Ardon</div>
     </div>
   );
 };
