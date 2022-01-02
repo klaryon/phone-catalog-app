@@ -44,12 +44,12 @@ const PhoneCard = ({ item }) => {
           <div className={styles.modalText}>{manufacturer}</div>
           <div className={styles.modalDescription}>{description}</div>
           <div className={styles.modalText}>Color: {color}</div>
-          <div className={styles.modalText}>
-            Price: {formatterNumber(price)}
-          </div>
           <div className={styles.modalText}>Screen: {screen}</div>
           <div className={styles.modalText}>Processor: {processor}</div>
           <div className={styles.modalText}>Ram: {ram}</div>
+          <div className={styles.modalPrice}>
+            Price: {formatterNumber(price)}
+          </div>
         </div>
       ) : (
         <div></div>
