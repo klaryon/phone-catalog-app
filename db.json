@@ -38,7 +38,7 @@
       },
       {
         "id": "3",
-        "name": "OPPO RENO4 Z",
+        "name": "Samsung Galaxy S21",
         "manufacturer": "Samsung",
         "description": "Never miss that perfect shot again. Meet Galaxy S21+ 5G. Designed to revolutionise video and photography with beyond cinematic 8K resolution, so you can snap epic photos right out of video. It has it all: 64MP, our fastest chipset and a massive all-day battery. Things just got epic.",
         "color": "red",
@@ -55,7 +55,7 @@
         "description": "iPhone 13. The most advanced dual camera system on an iPhone. Ultra-fast A15 Bionic chip. A great leap in autonomy. Rugged design. Vertigo 5G networks. And a brighter Super Retina XDR display. And all this with a capacity of 128 GB and in Star White color. What more could you ask for?",
         "color": "white",
         "price": 909,
-        "imageFileName": "https://github.com/klaryon/phone-catalog-app/blob/main/client/src/assets/galaxyS21.png?raw=true",
+        "imageFileName": "https://github.com/klaryon/phone-catalog-app/blob/main/client/src/assets/iPhone13.png?raw=true",
         "screen": "6,1 inch",
         "processor": "Chip A15 Bionic",
         "ram": 2
@@ -67,7 +67,7 @@
         "description": "If you need a versatile and functional mobile at the same time that you do not want to give up performance, do not miss the opportunity to get your Samsung Galaxy A32 mobile in black, with 4 GB of RAM and 128 GB of capacity. Quality technology and components at your fingertips.",
         "color": "black",
         "price": 279,
-        "imageFileName": "https://github.com/klaryon/phone-catalog-app/blob/main/client/src/assets/galaxyA22.png?raw=true",
+        "imageFileName": "https://github.com/klaryon/phone-catalog-app/blob/main/client/src/assets/galaxyA32.png?raw=true",
         "screen": "6,4 inch",
         "processor": "Octa-Core",
         "ram": 2
@@ -79,7 +79,7 @@
         "description": "Xiaomi POCO X3 Pro smartphone in metallic bronze color with 6.67' 120Hz FullHD+ screen, 1080 x 2400 pixels, Android, 4G, Dual SIM, Octa-core CPU up to 2.96GHz, 8GB RAM + 256GB of internal storage, microSD, 48MP quadruple rear camera and 20MP front, 5,160 mAh battery with fast charging (33W) and USB-C connector.",
         "color": "black",
         "price": 301,
-        "imageFileName": "https://github.com/klaryon/phone-catalog-app/blob/main/client/src/assets/galaxyA22.png?raw=true",
+        "imageFileName": "https://github.com/klaryon/phone-catalog-app/blob/main/client/src/assets/xiaomiPoco.png?raw=true",
         "screen": "6,67 inch",
         "processor": "CPU Octa-core hasta 2,96GHz",
         "ram": 2
@@ -91,7 +91,7 @@
         "description": "The OPPO Reno4 Z rear camera conveys a sense of depth, with a multi-layered look that centers four lenses around a dot of color. This innovative design breaks the rules of everything established, giving you a unique piece of beauty in the palm of your hand.",
         "color": "black",
         "price": 259,
-        "imageFileName": "https://github.com/klaryon/phone-catalog-app/blob/main/client/src/assets/galaxyA22.png?raw=true",
+        "imageFileName": "https://github.com/klaryon/phone-catalog-app/blob/main/client/src/assets/Oppo.png?raw=true",
         "screen": "6,57 inch",
         "processor": "MTK MT6873V",
         "ram": 2
