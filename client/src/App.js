@@ -28,7 +28,7 @@ function App() {
       </div>
     );
   } else {
-    return <div>{<Home items={data.data} />}</div>;
+    return <div><Home items={data.data} /></div>;
   }
 }
 
