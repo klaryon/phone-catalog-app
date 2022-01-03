@@ -6,12 +6,19 @@ Get a preview at:
 * Deployed with heroku: https://phone-catalog-app-heroku.herokuapp.com/
 
 ## Run the app
-Clone the app into your local computer then:
-* `1` Run in terminal: npm install
-* `2` Run in terminal (path: phone-catalog-app): npx nodemon server/index.js
-* `3` Change path to client folder (path: phone-catalog-app/client): 
-  * Run in terminal: cd client
-  * Then run in terminal: npm start
+
+```shell
+    # Clone or install commands
+    npm clone https://github.com/klaryon/phone-catalog-app.git
+    npm install
+    
+    # Start the server
+    npx nodemon server/index.js
+    
+    # Runs the app in the development mode. Open http://localhost:3000 to view it in your browser.
+    cd client
+    npm start
+```
 
 ## Tools & Libraries
 * NodeJS
