@@ -12,7 +12,7 @@ Get a preview at:
     npm clone https://github.com/klaryon/phone-catalog-app.git
     npm install
     
-    # Start the server
+    # Starts listening the server
     npx nodemon server/index.js
     
     # Runs the app in the development mode. Open http://localhost:3000 to view it in your browser.
@@ -20,9 +20,10 @@ Get a preview at:
     npm start
 ```
 
-## Tools & Libraries
+## Tools, Libraries & Language
 * NodeJS
 * Express
+* Javascript
 * React
 * Nodemon: reloads the server automatically
 * Loading spinner: react-loader-spinner https://www.npmjs.com/package/react-loader-spinner      
