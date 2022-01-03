@@ -23,7 +23,7 @@ Get a preview at:
 ## Tools, Libraries & Language
 * NodeJS
 * Express
-* Javascript
+* JavaScript
 * React
 * Nodemon: reloads the server automatically
 * Loading spinner: react-loader-spinner https://www.npmjs.com/package/react-loader-spinner      
